@@ -12,7 +12,7 @@ Follow @thisisjihedkdiss on Facebook :)
 ## Bugs & Limitations
 Windows Server and Insider versions are NOT officially supported. Run at your own risk.
 ## Usage
-- Launch deagle either by double click or type `*deagle.bat*` in the command prompt.
+- Launch deagle either by double click or type `deagle.bat` in the command prompt.
 - Click Yes if prompted by UAC
 - Deagle will perform a quick scan (green means good - nothing means bad)
 - System information is logged at log.txt
