@@ -59,10 +59,10 @@ Follow @thisisjihedkdiss on Facebook.
 
 ### Built With
 
-* [Batch](https://en.wikipedia.org/wiki/Batch_file)
+*  [Batch](https://en.wikipedia.org/wiki/Batch_file)
 
 ## Usage
-1. Launch deagle either by double click or type `deagle.bat` in the command prompt.
+1.  Launch deagle either by double click or type `Deagle` in the command prompt.
 2.  Click Yes if prompted by UAC
 3.  Deagle will perform a quick scan (green means good - nothing means bad)
 4.  System information is logged at log.txt
