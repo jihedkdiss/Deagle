@@ -15,7 +15,7 @@
   <h3 align="center">Desert Eagle</h3>
 
   <p align="center">
-    System scanner for Windows
+    System Scanner for Windows
     <br />
     <a href="https://github.com/jihedkdiss/Deagle"><strong>Explore the repository »</strong></a>
     <br />
