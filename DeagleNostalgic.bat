@@ -14,7 +14,6 @@
   @echo off
   title Deagle
 
-  echo [30m.[0m
   echo . >> log.txt
   echo ======================================================================= >> log.txt
   echo   D E S E R T  -  E A G L E  -  VERSION 1.0 >> log.txt
@@ -75,3 +74,4 @@
   echo ======================================================================= >> log.txt
   echo   D E S E R T  -  E A G L E  -  VERSION 1.0 >> log.txt
   echo ======================================================================= >> log.txt
+  pause
