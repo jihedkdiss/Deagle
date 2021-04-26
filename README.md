@@ -72,8 +72,8 @@ Follow @thisisjihedkdiss on Facebook.
 1. Launch Deagle either by double click or type `Deagle` in the command prompt. You can use `DeagleNostalgic` for the old version! 😄
 2. Click Yes if prompted by UAC
 3. Deagle will perform a quick scan (green means good - nothing means bad)
-4. System information is logged at `DeagleLogs\`
-5. In short, don't be an asshole and you're good.
+4. System information is logged at `DeagleLogs\` for the new version and `log.txt` for the old one
+5. Once completed press enter to exit
 
 ## Limitations
 Windows Server and Insider versions are NOT officially supported. Run at your own risk.
@@ -98,7 +98,6 @@ A: Run deagle in Admin mode ;)
 A: AVs seem to like it more for some reason. I suspect this occurs because of the nature and relative obscurity of Deagle (logging, hardware scanning...)
 
 <b>Q: I don't like what Deagle did to my computer. How do I change it back?</b>
-
 
 A: Deagle won't change any of your settings, it just logs all of them into log.txt
 
