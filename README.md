@@ -12,7 +12,7 @@
     <img src="https://github.com/jihedkdiss/Deagle/blob/v2/Deagle.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Desert Eagle</h3>
+  <h3 align="center">Desert Eagle V2</h3>
 
   <p align="center">
     System Scanner for Windows
