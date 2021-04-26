@@ -23,6 +23,13 @@ echo    [41m WARNING [0m Deagle Console launched. Please do not close.
 echo [30m.[0m
 echo   [[46m[30m Scanning system - Please wait [0m[0m]
 echo [30m.[0m
+goto :StartScan
+
+:PrintDateTime
+echo -------------- & date /T & time /T & echo --------------
+exit /b 0
+
+:StartScan
 
 call :PrintDateTime >> .\DeagleLogs\assoc.txt
 ASSOC >> .\DeagleLogs\assoc.txt
@@ -59,10 +66,6 @@ echo    Running Tasks      =  [[42m[30m Saved [0m[0m] [32mDeagleLogs\taskli
 call :PrintDateTime >> .\DeagleLogs\systeminfo.txt
 SYSTEMINFO >> .\DeagleLogs\systeminfo.txt
 echo    Configuration      =  [[42m[30m Saved [0m[0m] [32mDeagleLogs\systeminfo.txt[0m
-
-:PrintDateTime
-echo -------------- & date /T & time /T & echo --------------
-exit /b 0
 
 echo [30m.[0m
 pause
