@@ -1,86 +1,68 @@
+:: :: :: :: :: :: :: :: :: ::
+::                         ::
+::       D E S E R T       ::
+::        E A G L E        ::
+::           ---           ::
+::       VERSION 2.0       ::
+::                         ::
+:: :: :: :: :: :: :: :: :: ::
 
-  :: :: :: :: :: :: :: :: :: ::
-  ::                         ::
-  ::       D E S E R T       ::
-  ::        E A G L E        ::
-  ::           ---           ::
-  ::       VERSION 1.0       ::
-  ::                         ::
-  :: :: :: :: :: :: :: :: :: ::
+:: Coded by Jihed Kdiss
+:: facebook.com/thisisjihedkdiss
 
-  :: Coded by Jihed Kdiss
-  :: facebook.com/thisisjihedkdiss
+@echo off
+title Deagle
+mkdir DeagleLogs
+cls
 
-  @echo off
-  title Desert Eagle (Version 1.0)
-  setlocal
-  call :setESC
+echo [30m.[0m
+echo    D e a g l e  [36mV2[0m                                                                         System Scanner for Windows
+echo                                                                                                           [36m[4mVersion 2.0[0m[0m
+echo [30m.[0m
+echo    [41m WARNING [0m Deagle Console launched. Please do not close.
+echo [30m.[0m
+echo   [[46m[30m Scanning system - Please wait [0m[0m]
+echo [30m.[0m
 
-  echo %ESC%[30m.%ESC%[0m
+call :PrintDateTime >> .\DeagleLogs\assoc.txt
+ASSOC >> .\DeagleLogs\assoc.txt
+echo    Associations       =  [[42m[30m Saved [0m[0m] [32mDeagleLogs\assoc.txt[0m
 
-  echo . >> log.txt
-  echo ======================================================================= >> log.txt
-  echo   D E S E R T  -  E A G L E  -  VERSION 1.0 >> log.txt
-  echo ======================================================================= >> log.txt
-  echo . >> log.txt
-  echo Windows version: >> log.txt
-  ver >> log.txt
-  echo System date: >> log.txt
-  date /t >> log.txt
-  echo System time: >> log.txt
-  time /t >> log.txt
-  echo . >> log.txt
-  
-  echo ==========================[ STARTING SCAN ]========================== >> log.txt
-  echo . >> log.txt
-  echo -------------------------[ FILE ASSOCIATIONS ]------------------------- >> log.txt
-  ASSOC >> log.txt
-  echo   File associations       =  %ESC%[32mD O N E%ESC%[0m
-  echo . >> log.txt
-  echo -------------------------[ IP CONFIGURATION ]------------------------- >> log.txt
-  IPCONFIG >> log.txt
-  echo   IP configuration        =  %ESC%[32mD O N E%ESC%[0m
-  echo . >> log.txt
-  echo -------------------------[ DRIVER QUERY ]------------------------- >> log.txt
-  DRIVERQUERY >> log.txt
-  echo   Driver query            =  %ESC%[32mD O N E%ESC%[0m
-  echo . >> log.txt
-  echo -------------------------[ EXTENSION ASSOCIATIONS ]------------------------ >> log.txt
-  FTYPE >> log.txt
-  echo   Extension associations  =  %ESC%[32mD O N E%ESC%[0m
-  echo . >> log.txt
-  echo -------------------------[ PATH ]------------------------ >> log.txt
-  PATH >> log.txt
-  echo   System Path             =  %ESC%[32mD O N E%ESC%[0m
-  echo . >> log.txt
-  echo -------------------------[ ENVIRONMENT VARIABLES ]------------------------ >> log.txt
-  SET >> log.txt
-  echo   Environment variables   =  %ESC%[32mD O N E%ESC%[0m
-  echo . >> log.txt
-  echo -------------------------[ BACKGROUND SERVICES ]------------------------ >> log.txt
-  SC QUERY >> log.txt
-  echo   Background services     =  %ESC%[32mD O N E%ESC%[0m
-  echo . >> log.txt
-  echo -------------------------[ RUNNING TASKS ]------------------------ >> log.txt
-  TASKLIST >> log.txt
-  echo   Running tasks           =  %ESC%[32mD O N E%ESC%[0m
-  echo . >> log.txt
-  echo -------------------------[ SYSTEM CONFIGURATION ]------------------------ >> log.txt
-  SYSTEMINFO >> log.txt
-  echo   System configuration    =  %ESC%[32mD O N E%ESC%[0m
-  echo . >> log.txt
+call :PrintDateTime >> .\DeagleLogs\ipconfig.txt
+IPCONFIG /ALL >> .\DeagleLogs\ipconfig.txt
+echo    IP Configuration   =  [[42m[30m Saved [0m[0m] [32mDeagleLogs\ipconfig.txt[0m
 
-  echo =========================[ FINISHING SCAN ]========================= >> log.txt
-  echo . >> log.txt
-  date /t >> log.txt
-  time /t >> log.txt
-  echo . >> log.txt
-  echo ======================================================================= >> log.txt
-  echo   D E S E R T  -  E A G L E  -  VERSION 1.0 >> log.txt
-  echo ======================================================================= >> log.txt
+call :PrintDateTime >> .\DeagleLogs\driverquery.txt
+DRIVERQUERY >> .\DeagleLogs\driverquery.txt
+echo    Driver Query       =  [[42m[30m Saved [0m[0m] [32mDeagleLogs\driverquery.txt[0m
 
-  :setESC
-  for /F "tokens=1,2 delims=#" %%a in ('"prompt #$H#$E# & echo on & for %%b in (1) do rem"') do (
-    set ESC=%%b
-    exit /B 0
-  )
+call :PrintDateTime >> .\DeagleLogs\ftype.txt
+FTYPE >> .\DeagleLogs\ftype.txt
+echo    Extensions         =  [[42m[30m Saved [0m[0m] [32mDeagleLogs\ftype.txt[0m
+
+call :PrintDateTime >> .\DeagleLogs\path.txt
+PATH >> .\DeagleLogs\path.txt
+echo    Path               =  [[42m[30m Saved [0m[0m] [32mDeagleLogs\path.txt[0m
+
+call :PrintDateTime >>.\DeagleLogs\set.txt
+SET >>.\DeagleLogs\set.txt
+echo    Environment Vars   =  [[42m[30m Saved [0m[0m] [32mDeagleLogs\set.txt[0m
+
+call :PrintDateTime >> .\DeagleLogs\scquery.txt
+SC QUERY >> .\DeagleLogs\scquery.txt
+echo    Services           =  [[42m[30m Saved [0m[0m] [32mDeagleLogs\scquery.txt[0m
+
+call :PrintDateTime >> .\DeagleLogs\tasklist.txt
+TASKLIST >> .\DeagleLogs\tasklist.txt
+echo    Running Tasks      =  [[42m[30m Saved [0m[0m] [32mDeagleLogs\tasklist.txt[0m
+
+call :PrintDateTime >> .\DeagleLogs\systeminfo.txt
+SYSTEMINFO >> .\DeagleLogs\systeminfo.txt
+echo    Configuration      =  [[42m[30m Saved [0m[0m] [32mDeagleLogs\systeminfo.txt[0m
+
+:PrintDateTime
+echo -------------- & date /T & time /T & echo --------------
+exit /b 0
+
+echo [30m.[0m
+pause
