@@ -9,7 +9,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/jihedkdiss/Deagle">
-    <img src="https://liquipedia.net/commons/images/c/cb/Weapon_deagle.png" alt="Logo" width="80" height="80">
+    <img src="https://github.com/jihedkdiss/Deagle/blob/v2/Deagle.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Desert Eagle</h3>
@@ -41,11 +41,17 @@
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Limitations</a></li>
     <li><a href="#faq">FAQ</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+
+![Deagle Screenshot](https://raw.githubusercontent.com/jihedkdiss/Deagle/v2/Screenshot.png)
 
 Desert Eagle is a system scanner for Windows, designed to quickly gather all possible system information.
 It's not a real-time scanner application, it does not run in the background and does not install anything. Run it once and you're set.
@@ -59,30 +65,76 @@ Follow @thisisjihedkdiss on Facebook.
 
 ### Built With
 
-*  [Batch](https://en.wikipedia.org/wiki/Batch_file)
+* [Batch](https://en.wikipedia.org/wiki/Batch_file)
+* [Advanced BAT to EXE](https://www.battoexeconverter.com)
 
 ## Usage
-1.  Launch deagle either by double click or type `Deagle` in the command prompt.
-2.  Click Yes if prompted by UAC
-3.  Deagle will perform a quick scan (green means good - nothing means bad)
-4.  System information is logged at log.txt
-5.  In short, don't be an asshole and you're good.
+1. Launch Deagle either by double click or type `Deagle` in the command prompt. You can use `DeagleNostalgic` for the old version! 😄
+2. Click Yes if prompted by UAC
+3. Deagle will perform a quick scan (green means good - nothing means bad)
+4. System information is logged at `DeagleLogs\` for the new version and `log.txt` for the old one
+5. Once completed press enter to exit
 
 ## Limitations
 Windows Server and Insider versions are NOT officially supported. Run at your own risk.
 
+
+<b>Windows before 10 - no native support for ANSI colors on the console!</b>
+
+
+For Windows version below 10, the Windows command console doesn't support output coloring by default. You could install either Cmder, ConEmu, ANSICON or Mintty (used by default in GitBash and Cygwin) to add coloring support to your Windows command console.
+
 ## FAQ
-Q: Deagle is stuck/hangs/crashes.
+<b>Q: Deagle is stuck/hangs/crashes.</b>
+
 A: It takes a while (up to 1mn on older CPUs) but if you're sure it's stuck, restart Deagle.
 
-Q: Deagle shows errors like "access denied", "unable to read file", "system error"...
+<b>Q: Deagle shows errors like "access denied", "unable to read file", "system error"...</b>
+
 A: Run deagle in Admin mode ;)
 
-Q: My antivirus reports Deagle as malware.
+<b>Q: My antivirus reports Deagle as malware.</b>
+
 A: AVs seem to like it more for some reason. I suspect this occurs because of the nature and relative obscurity of Deagle (logging, hardware scanning...)
 
-Q: I don't like what Deagle did to my computer. How do I change it back?
+<b>Q: I don't like what Deagle did to my computer. How do I change it back?</b>
+
 A: Deagle won't change any of your settings, it just logs all of them into log.txt
+
+<!-- ROADMAP -->
+## Roadmap
+
+See the [open issues](https://github.com/jihedkdiss/Deagle/issues) for a list of proposed features (and known issues).
+
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the GNU General Public License. See `LICENSE` for more information.
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Jihed Kdiss - [@thisisjihedkdiss](https://facebook.com/thisisjihedkdiss) - jihedkdiss@outlook.com
+
+Project Link: [https://github.com/jihedkdiss/Deagle](https://github.com/jihedkdiss/Deagle)
+
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
