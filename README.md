@@ -47,7 +47,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Deagle Screenshot][https://github.com/jihedkdiss/Deagle/blob/v2/Screenshot.png]](https://github.com/jihedkdiss/Deagle)
+![Deagle Screenshot](https://raw.githubusercontent.com/jihedkdiss/Deagle/v2/Screenshot.png)
 
 Desert Eagle is a system scanner for Windows, designed to quickly gather all possible system information.
 It's not a real-time scanner application, it does not run in the background and does not install anything. Run it once and you're set.
