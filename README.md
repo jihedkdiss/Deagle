@@ -41,6 +41,10 @@
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Limitations</a></li>
     <li><a href="#faq">FAQ</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
 
@@ -86,6 +90,41 @@ A: AVs seem to like it more for some reason. I suspect this occurs because of th
 
 Q: I don't like what Deagle did to my computer. How do I change it back?
 A: Deagle won't change any of your settings, it just logs all of them into log.txt
+
+<!-- ROADMAP -->
+## Roadmap
+
+See the [open issues](https://github.com/jihedkdiss/Deagle/issues) for a list of proposed features (and known issues).
+
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the GNU General Public License. See `LICENSE` for more information.
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Jihed Kdiss - [@thisisjihedkdiss](https://facebook.com/thisisjihedkdiss) - jihedkdiss@outlook.com
+
+Project Link: [https://github.com/jihedkdiss/Deagle](https://github.com/jihedkdiss/Deagle)
+
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
