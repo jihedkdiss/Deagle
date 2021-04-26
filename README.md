@@ -69,10 +69,10 @@ Follow @thisisjihedkdiss on Facebook.
 * [Advanced BAT to EXE](https://www.battoexeconverter.com)
 
 ## Usage
-1. Launch deagle either by double click or type `Deagle` in the command prompt.
+1. Launch deagle either by double click or type `Deagle` in the command prompt. You can use `DeagleLite` as well!
 2. Click Yes if prompted by UAC
 3. Deagle will perform a quick scan (green means good - nothing means bad)
-4. System information is logged at log.txt
+4. System information is logged at `DeagleLogs\`
 5. In short, don't be an asshole and you're good.
 
 ## Limitations
