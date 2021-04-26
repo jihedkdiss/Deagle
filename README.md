@@ -78,17 +78,28 @@ Follow @thisisjihedkdiss on Facebook.
 ## Limitations
 Windows Server and Insider versions are NOT officially supported. Run at your own risk.
 
+
+<b>Windows before 10 - no native support for ANSI colors on the console!</b>
+
+
+For Windows version below 10, the Windows command console doesn't support output coloring by default. You could install either Cmder, ConEmu, ANSICON or Mintty (used by default in GitBash and Cygwin) to add coloring support to your Windows command console.
+
 ## FAQ
-Q: Deagle is stuck/hangs/crashes.
+<b>Q: Deagle is stuck/hangs/crashes.</b>
+
 A: It takes a while (up to 1mn on older CPUs) but if you're sure it's stuck, restart Deagle.
 
-Q: Deagle shows errors like "access denied", "unable to read file", "system error"...
+<b>Q: Deagle shows errors like "access denied", "unable to read file", "system error"...</b>
+
 A: Run deagle in Admin mode ;)
 
-Q: My antivirus reports Deagle as malware.
+<b>Q: My antivirus reports Deagle as malware.</b>
+
 A: AVs seem to like it more for some reason. I suspect this occurs because of the nature and relative obscurity of Deagle (logging, hardware scanning...)
 
-Q: I don't like what Deagle did to my computer. How do I change it back?
+<b>Q: I don't like what Deagle did to my computer. How do I change it back?</b>
+
+
 A: Deagle won't change any of your settings, it just logs all of them into log.txt
 
 <!-- ROADMAP -->
