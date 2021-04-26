@@ -12,7 +12,7 @@
     <img src="https://github.com/jihedkdiss/Deagle/blob/v2/Deagle.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Desert Eagle V2</h3>
+  <h3 align="center">Desert Eagle</h3>
 
   <p align="center">
     System Scanner for Windows
@@ -47,6 +47,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+[![Deagle Screenshot][https://github.com/jihedkdiss/Deagle/blob/v2/Screenshot.png]](https://github.com/jihedkdiss/Deagle)
+
 Desert Eagle is a system scanner for Windows, designed to quickly gather all possible system information.
 It's not a real-time scanner application, it does not run in the background and does not install anything. Run it once and you're set.
 Internet access is not required.
@@ -59,14 +61,15 @@ Follow @thisisjihedkdiss on Facebook.
 
 ### Built With
 
-*  [Batch](https://en.wikipedia.org/wiki/Batch_file)
+* [Batch](https://en.wikipedia.org/wiki/Batch_file)
+* [Advanced BAT to EXE](https://www.battoexeconverter.com)
 
 ## Usage
-1.  Launch deagle either by double click or type `Deagle` in the command prompt.
-2.  Click Yes if prompted by UAC
-3.  Deagle will perform a quick scan (green means good - nothing means bad)
-4.  System information is logged at log.txt
-5.  In short, don't be an asshole and you're good.
+1. Launch deagle either by double click or type `Deagle` in the command prompt.
+2. Click Yes if prompted by UAC
+3. Deagle will perform a quick scan (green means good - nothing means bad)
+4. System information is logged at log.txt
+5. In short, don't be an asshole and you're good.
 
 ## Limitations
 Windows Server and Insider versions are NOT officially supported. Run at your own risk.
