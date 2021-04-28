@@ -9,10 +9,10 @@
 <br />
 <p align="center">
   <a href="https://github.com/jihedkdiss/Deagle">
-    <img src="https://github.com/jihedkdiss/Deagle/blob/main/Deagle.png" alt="Logo" width="80" height="80">
+    <img src="https://github.com/jihedkdiss/Deagle/blob/main/Logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Desert Eagle</h3>
+  <h3 align="center">Desert 🦅 Eagle</h3>
 
   <p align="center">
     System Scanner for Windows
@@ -53,27 +53,23 @@
 
 ![Deagle Screenshot](https://raw.githubusercontent.com/jihedkdiss/Deagle/main/Screenshot.png)
 
-<b>Desert Eagle</b> is a system scanner for Windows, designed to quickly gather all possible system information.
+<b>Deagle</b> is a system scanner for Windows, designed to quickly gather and save all possible system information.
 It's not a real-time scanner application, it does not run in the background and does not install anything. Run it once and you're set.
-Internet access is not required.
-I am not responsible for any damages done to your PC while using Deagle.
-With that said, Deagle has been tested on Windows 7, 8.1 and 10.
-Bug reports, suggestions and tips are always welcome!
-You can help keep the Desert Eagle flying!
-Follow @thisisjihedkdiss on Facebook.
+Internet access is not required. I am not responsible for any damages done to your PC while using Deagle.
+With that said, Deagle has been tested on Windows 7, 8.1 and 10. Bug reports, suggestions and tips are always welcome!
+You can help keep the Deagle flying. Star this repository! 🌟
 
 
 ### Built With
 
 * [Batch](https://en.wikipedia.org/wiki/Batch_file)
-* [Advanced BAT to EXE](https://www.battoexeconverter.com)
 
 ## Usage
-1. Launch Deagle either by double click or type `Deagle` in the command prompt. You can use `DeagleNostalgic` for the old version! 😄
-2. Click Yes if prompted by UAC
-3. Deagle will perform a quick scan (green means good - nothing means bad)
-4. System information is logged at `DeagleLogs\` for the new version and `log.txt` for the old one
-5. Once completed press enter to exit
+1. Launch Deagle either by double click or type `Deagle` in the command prompt.
+2. Click Yes if prompted by UAC (Administrator priviliges are not required by default)
+3. Deagle will perform a quick system scan (green means good - nothing means bad)
+4. System information is logged at `DeagleLogs\`
+5. Once completed press any key to close
 
 ## Limitations
 Windows Server and Insider versions are NOT officially supported. Run at your own risk.
@@ -83,6 +79,8 @@ Windows Server and Insider versions are NOT officially supported. Run at your ow
 
 
 For Windows version below 10, the Windows command console doesn't support output coloring by default. You could install either Cmder, ConEmu, ANSICON or Mintty (used by default in GitBash and Cygwin) to add coloring support to your Windows command console.
+
+> If you want to run Deagle without installing additional software, please use the old version <b>Deagle Loaded</b>. Download it from the releases tab.
 
 ## FAQ
 <b>Q: Deagle is stuck/hangs/crashes.</b>
