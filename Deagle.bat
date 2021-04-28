@@ -69,3 +69,4 @@ echo    Configuration      =  [[42m[30m Saved [0m[0m] [32mDeagleLogs\system
 
 echo [30m.[0m
 pause
+cls
