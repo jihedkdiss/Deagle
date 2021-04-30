@@ -97,7 +97,7 @@ A: AVs seem to like it more for some reason. I suspect this occurs because of th
 
 <b>Q: I don't like what Deagle did to my computer. How do I change it back?</b>
 
-A: Deagle won't change any of your settings, it just logs all of them into log.txt
+A: Deagle won't change any of your settings, it just saves all of them into one place.
 
 <!-- ROADMAP -->
 ## Roadmap
