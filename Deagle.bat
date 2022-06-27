@@ -8,7 +8,7 @@
 :: :: :: :: :: :: :: :: :: ::
 
 :: Coded by Jihed Kdiss
-:: facebook.com/thisisjihedkdiss
+:: linkedin.com/in/jihedkdiss
 
 @echo off
 title Deagle
