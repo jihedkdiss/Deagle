@@ -39,7 +39,7 @@ goto END
 
 echo    [41m WARNING [0m Deagle Console launched. Please do not close.
 echo.
-echo   [[46m[30m Scanning system - Please wait [0m[0m]
+echo   [[46m[30m Scanning system - Please wait [0m[0m]  [[7m[33m Computer: %computername% [0m[0m]
 echo.
 
 call :PrintDateTime >> .\DeagleLogs\assoc.txt
