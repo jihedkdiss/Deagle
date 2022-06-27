@@ -39,10 +39,6 @@ call :PrintDateTime >> .\DeagleLogs\ipconfig.txt
 IPCONFIG /ALL >> .\DeagleLogs\ipconfig.txt
 echo    IP Configuration   =  [[42m[30m Saved [0m[0m] [32mDeagleLogs\ipconfig.txt[0m
 
-call :PrintDateTime >> .\DeagleLogs\driverquery.txt
-DRIVERQUERY >> .\DeagleLogs\driverquery.txt
-echo    Driver Query       =  [[42m[30m Saved [0m[0m] [32mDeagleLogs\driverquery.txt[0m
-
 call :PrintDateTime >> .\DeagleLogs\ftype.txt
 FTYPE >> .\DeagleLogs\ftype.txt
 echo    Extensions         =  [[42m[30m Saved [0m[0m] [32mDeagleLogs\ftype.txt[0m
@@ -66,6 +62,10 @@ echo    Running Tasks      =  [[42m[30m Saved [0m[0m] [32mDeagleLogs\taskli
 call :PrintDateTime >> .\DeagleLogs\systeminfo.txt
 SYSTEMINFO >> .\DeagleLogs\systeminfo.txt
 echo    Configuration      =  [[42m[30m Saved [0m[0m] [32mDeagleLogs\systeminfo.txt[0m
+
+call :PrintDateTime >> .\DeagleLogs\driverquery.txt
+DRIVERQUERY >> .\DeagleLogs\driverquery.txt
+echo    Driver Query       =  [[42m[30m Saved [0m[0m] [32mDeagleLogs\driverquery.txt[0m
 
 echo.
 pause
