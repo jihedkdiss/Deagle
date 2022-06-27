@@ -19,17 +19,28 @@ echo.
 echo    D e a g l e  [36mV2[0m                                                                         System Scanner for Windows
 echo                                                                                                           [36m[4mVersion 2.0[0m[0m
 echo.
-echo    [41m WARNING [0m Deagle Console launched. Please do not close.
-echo.
-echo   [[46m[30m Scanning system - Please wait [0m[0m]
-echo.
+
+if %os%==Windows_NT goto :StartScan
+goto NOCON
+
 goto :StartScan
 
 :PrintDateTime
 echo -------------- & date /T & time /T & echo --------------
 exit /b 0
 
+:NOCON
+echo    [41m ERROR [0m Invalid OS detected. No actions were made. Closing...
+echo.
+pause
+goto END
+
 :StartScan
+
+echo    [41m WARNING [0m Deagle Console launched. Please do not close.
+echo.
+echo   [[46m[30m Scanning system - Please wait [0m[0m]
+echo.
 
 call :PrintDateTime >> .\DeagleLogs\assoc.txt
 ASSOC >> .\DeagleLogs\assoc.txt
@@ -70,3 +81,6 @@ echo    Driver Query       =  [[42m[30m Saved [0m[0m] [32mDeagleLogs\driver
 echo.
 pause
 cls
+goto END
+
+:END
