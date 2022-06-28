@@ -67,7 +67,7 @@ You can help keep the Deagle flying. Star this repository! 🌟
 ## Usage
 1. Launch Deagle either by double click or type `Deagle` in the command prompt.
 2. Click Yes if prompted by UAC (Administrator priviliges are not required by default)
-3. Deagle will perform a quick system scan (green means good - nothing means bad)
+3. Deagle will perform a quick system scan (green means good - anything else means bad)
 4. System information is logged at `DeagleLogs\`
 5. Once completed press any key to close
 
