@@ -17,7 +17,7 @@ cls
 
 echo.
 echo    D e a g l e  [36mV2[0m                                                                         System Scanner for Windows
-echo                                                                                                           [36m[4mVersion 2.0[0m[0m
+echo                                                                                                           [36m[4mVersion 2.1[0m[0m
 echo.
 
 if %os%==Windows_NT goto :StartScan
