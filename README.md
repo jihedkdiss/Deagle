@@ -60,6 +60,13 @@ With that said, Deagle has been tested on Windows 7, 8.1 and 10. Bug reports, su
 You can help keep the Deagle flying. Star this repository! 🌟
 
 
+### Features
+
+* Fast and not furious due to the output being generated in real time
+* Appealing console interface to track the progress and know the locations
+* Logs are marked with precise date, time and machine name
+* A specific release (Deagle Loaded) is available for older machines or if you want less output and colors
+
 ### Built With
 
 * [Batch](https://en.wikipedia.org/wiki/Batch_file)
@@ -68,7 +75,7 @@ You can help keep the Deagle flying. Star this repository! 🌟
 1. Launch Deagle either by double click or type `Deagle` in the command prompt.
 2. Click Yes if prompted by UAC (Administrator priviliges are not required by default)
 3. Deagle will perform a quick system scan (green means good - anything else means bad)
-4. System information is logged at `DeagleLogs\`
+4. System information is saved at `DeagleLogs\`
 5. Once completed press any key to close
 
 ## Limitations
