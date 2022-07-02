@@ -26,7 +26,7 @@ goto NOCON
 goto :StartScan
 
 :PrintDateTime
-echo -------------- & date /T & time /T & echo --------------
+echo -------------- & date /T & time /T & echo %computername% & echo --------------
 exit /b 0
 
 :NOCON
