@@ -9,7 +9,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/jihedkdiss/Deagle">
-    <img src="https://github.com/jihedkdiss/Deagle/blob/main/Pictures/Logo.png" alt="Logo" width="80" height="80">
+    <img src="Pictures/Logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Desert 🦅 Eagle</h3>
@@ -51,7 +51,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Deagle Screenshot](https://raw.githubusercontent.com/jihedkdiss/Deagle/main/Pictures/Screenshot.png)
+![Deagle Screenshot](Pictures/Screenshot.png)
 
 <b>Deagle</b> is a system scanner for Windows, designed to quickly gather and save all possible system information.
 It's not a real-time scanner application, it does not run in the background and does not install anything. Run it once and you're set.
